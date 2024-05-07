@@ -1,13 +1,4 @@
-/**
- * Game of Life
- * by Joan Soler-Adillon.
- *
- * Press SPACE BAR to pause and change the cell's values 
- * with the mouse. On pause, click to activate/deactivate 
- * cells. Press 'R' to randomly reset the cells' grid. 
- * Press 'C' to clear the cells' grid. The original Game 
- * of Life was created by John Conway in 1970.
- */
+// frame of life //
 
 // Size of cells
 int cellSize = 20;  //20
@@ -50,7 +41,7 @@ void setup() {
   background(255);
   //frameRate(2);
   
-  movie = new Movie(this, "/Users/madsoleclasen/Desktop/frameoflife/20230122_100656--blind.mov");
+  movie = new Movie(this, "path to desired video here");
   //movie.frameRate(1);
   //movie.speed(0.5);
   movie.play();  
